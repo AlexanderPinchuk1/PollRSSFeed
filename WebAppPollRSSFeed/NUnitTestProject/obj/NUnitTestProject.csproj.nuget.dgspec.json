@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Study\\SPP\\PollRSSFeed\\WebAppPollRSSFeed\\NUnitTestProject\\NUnitTestProject.csproj": {}
+  },
+  "projects": {
+    "D:\\Study\\SPP\\PollRSSFeed\\WebAppPollRSSFeed\\NUnitTestProject\\NUnitTestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study\\SPP\\PollRSSFeed\\WebAppPollRSSFeed\\NUnitTestProject\\NUnitTestProject.csproj",
+        "projectName": "NUnitTestProject",
+        "projectPath": "D:\\Study\\SPP\\PollRSSFeed\\WebAppPollRSSFeed\\NUnitTestProject\\NUnitTestProject.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\SPP\\PollRSSFeed\\WebAppPollRSSFeed\\NUnitTestProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Study\\SPP\\PollRSSFeed\\WebAppPollRSSFeed\\WebAppPollRSSFeed\\WebAppPollRSSFeed.csproj": {
+                "projectPath": "D:\\Study\\SPP\\PollRSSFeed\\WebAppPollRSSFeed\\WebAppPollRSSFeed\\WebAppPollRSSFeed.csproj"
+              },
+              "D:\\Study\\SPP\\PollRSSFeed\\WebServiceFilter\\WebServiceFilter\\WebServiceFilter.csproj": {
+                "projectPath": "D:\\Study\\SPP\\PollRSSFeed\\WebServiceFilter\\WebServiceFilter\\WebServiceFilter.csproj"
+              },
+              "D:\\Study\\SPP\\PollRSSFeed\\WebServiceLoadData\\WebServiceLoadData\\WebServiceLoadData.csproj": {
+                "projectPath": "D:\\Study\\SPP\\PollRSSFeed\\WebServiceLoadData\\WebServiceLoadData\\WebServiceLoadData.csproj"
+              },
+              "D:\\Study\\SPP\\PollRSSFeed\\WebServiceMail\\WebServiceMail\\WebServiceMail.csproj": {
+                "projectPath": "D:\\Study\\SPP\\PollRSSFeed\\WebServiceMail\\WebServiceMail\\WebServiceMail.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.15.2, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.5, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Study\\SPP\\PollRSSFeed\\WebAppPollRSSFeed\\WebAppPollRSSFeed\\WebAppPollRSSFeed.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study\\SPP\\PollRSSFeed\\WebAppPollRSSFeed\\WebAppPollRSSFeed\\WebAppPollRSSFeed.csproj",
+        "projectName": "WebAppPollRSSFeed",
+        "projectPath": "D:\\Study\\SPP\\PollRSSFeed\\WebAppPollRSSFeed\\WebAppPollRSSFeed\\WebAppPollRSSFeed.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\SPP\\PollRSSFeed\\WebAppPollRSSFeed\\WebAppPollRSSFeed\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.11.3, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.5, )"
+            },
+            "NLog.config": {
+              "target": "Package",
+              "version": "[4.7.5, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Study\\SPP\\PollRSSFeed\\WebServiceFilter\\WebServiceFilter\\WebServiceFilter.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Study\\SPP\\PollRSSFeed\\WebServiceFilter\\WebServiceFilter\\WebServiceFilter.csproj",
+        "projectName": "WebServiceFilter",
+        "projectPath": "D:\\Study\\SPP\\PollRSSFeed\\WebServiceFilter\\WebServiceFilter\\WebServiceFilter.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Study\\SPP\\PollRSSFeed\\WebServiceLoadData\\WebServiceLoadData\\WebServiceLoadData.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Study\\SPP\\PollRSSFeed\\WebServiceLoadData\\WebServiceLoadData\\WebServiceLoadData.csproj",
+        "projectName": "WebServiceLoadData",
+        "projectPath": "D:\\Study\\SPP\\PollRSSFeed\\WebServiceLoadData\\WebServiceLoadData\\WebServiceLoadData.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Study\\SPP\\PollRSSFeed\\WebServiceMail\\WebServiceMail\\WebServiceMail.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Study\\SPP\\PollRSSFeed\\WebServiceMail\\WebServiceMail\\WebServiceMail.csproj",
+        "projectName": "WebServiceMail",
+        "projectPath": "D:\\Study\\SPP\\PollRSSFeed\\WebServiceMail\\WebServiceMail\\WebServiceMail.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

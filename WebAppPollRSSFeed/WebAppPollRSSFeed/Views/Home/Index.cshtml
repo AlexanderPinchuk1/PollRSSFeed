@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <div>
+        <div class="url-block">
+            <div class="table-block">
+                <h1 class="header">Url list</h1>
+                <table class="url-table">
+                    @for (int i = 0; i < ViewBag.Urls.Count; i++)
+                    {
+                        <tr>
+                            <td class="url-in-table">@ViewBag.Urls[i]</td>
+                            <td>
+                                <a href="@Url.Action("DeleteUrl","Home", new { num = i})">
+                                    <img alt="-" style="vertical-align: middle;" src="~/trash24.png" />
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+            <div class="url-input">
+                <form action="Home/CreateUrl" method="post">
+                    <div class="url-textarea-block">
+                        <input class="url-textarea" type="text" name="url" />
+                    </div>
+
+                    <div class="but-add-url-block">
+                        <input class="but-add-url" type="submit" value="Add" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="info-text-block">
+            <textarea class="textarea-block" readonly>@ViewBag.ArticlesText</textarea>
+        </div>
+        <div class="filter-block">
+            <div class="table-block"> 
+                <h1 class="header">Keyword list</h1>
+                <table class="keyword-table">
+                    @for (int i = 0; i < ViewBag.KeyWords.Count; i++)
+                    {
+                        <tr>
+                            <td class="keyword-in-table">@ViewBag.KeyWords[i]</td>
+                            <td>
+                                <a href="@Url.Action("DeleteKeyWord","Home", new { num = i})">
+                                    <img alt="-" style="vertical-align: middle;" src="~/trash24.png" />
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+            <div class="keyword-input">
+                <form action="Home/CreateKeyWord" method="post">
+                    <div class="keyword-textarea-block">
+                        <input class="keyword-textarea" type="text" name="keyword" />
+                    </div>
+                    <div class="but-add-keyword-block">
+                        <input type="submit" class="but-add-keyword" value="Add"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="recipients-block">
+            <div class="table-block">
+                <h1 class="header">Recipient list</h1>
+                <table class="recipient-table">
+                    @for (int i = 0; i < ViewBag.Recipients.Count; i++)
+                    {
+                        <tr>
+                            <td class="recipient-in-table">@ViewBag.Recipients[i]</td>
+                            <td>
+                                <a href="@Url.Action("DeleteRecipient","Home", new { num = i})">
+                                    <img alt="-" style="vertical-align: middle;" src="~/trash24.png" />
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+            <div class="recipient-input">
+                <form action="Home/CreateRecipient" method="post">
+                    <div class="recipient-textarea-block">
+                        <input class="recipient-textarea" type="text" name="recipient"/>
+                    </div>
+                    <div class="but-add-recipient-block">
+                        <input type="submit" class="but-add-recipient" value="Add" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div>
+        <form action="Home/Action" method="get">
+            <input type="submit" class="but-action" value="Action" />
+        </form>
+    </div>
+</div>
